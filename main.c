@@ -9,7 +9,7 @@ int main()
     int i;
     int onay;
 
-	printf("Lutfen sifresini olusturmak istediginiz cumleyi girin:\n");
+    printf("Lutfen sifresini olusturmak istediginiz cumleyi girin:\n");
     fgets(dizi,sizeof(dizi),stdin);
     printf("girdiginiz cumle \"%s\"",dizi);
     //printf("\ncumleyi onaylamiyorsaniz (h) diyerek programi sonlandirabilirsiniz\n");
